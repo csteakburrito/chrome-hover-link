@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hover Link Options</title>
+<link href="../css/options.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+
+<div id="container">
+<h1>Hover Link Settings</h1>
+<input type="checkbox" id="short-link"> <label for="short-link">Show destination link for short URL</label> <br>
+<input type="checkbox" id="normal-link"> <label for="normal-link">Show destination link for normal URL</label> <br>
+<input type="checkbox" id="icon"> <label for="icon">Show icon</label> <br>
+<h2>Display options:</h2>
+<table>
+	<tr>
+		<td> <label for="font-size">Font size:<label> </td>
+		<td> <input type="text" id="font-size"> px </td>
+	</tr>
+	<tr>
+		<td> <label for="max-width">Max-width:<label> </td>
+		<td> <input type="text" id="max-width"> px </td>
+	</tr>
+	<tr>
+		<td> <label for="delay-time">Hover delay:<label> </td>
+		<td> <input type="text" id="delay-time"> ms </td>
+	</tr>
+</table>
+<h2>Display position:</h2>
+<input type="radio" id="top-right" name="position" value="top-right"> <label for="top-right">Top right</label> <br>
+<input type="radio" id="top-left" name="position" value="top-left"> <label for="top-left">Top left</label> <br>
+<input type="radio" id="bottom-right" name="position" value="bottom-right"> <label for="bottom-right">Bottom right</label> <br>
+<input type="radio" id="bottom-left" name="position" value="bottom-left"> <label for="bottom-left">Bottom left</label>
+<h3>Offset from borders:</h3>
+<div id="offsets">
+<label for="x-offset">X:</label> <input type="text" id="x-offset"> px<br>
+<label for="y-offset">Y:</label> <input type="text" id="y-offset"> px<br>
+</div>
+Copy button: <button id="copy-btn">None</button>
+<br>
+<br>
+
+<button id="save">Save settings</button>
+<h3 id="message">Saved!</h3>
+
+</div>
+
+<script src="../js/icon.js"></script>
+<script src="../js/jquery-2.1.1.min.js"></script>
+<script src="../js/options.js"></script>
+
+</body>
+</html>

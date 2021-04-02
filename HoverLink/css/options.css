@@ -1,0 +1,100 @@
+h1,
+h2,
+h3 {
+  -webkit-user-select: none;
+  font-weight: normal;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-top: 5px;
+}
+
+body {
+  cursor: default;
+  margin: 0;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 0.4em;
+}
+
+h3 {
+  font-size: 1.0em;
+  margin-bottom: 3px;
+  margin-top: 8px;
+  margin-left: 3px;
+}
+
+#container {
+  padding: 10px 20px;
+  width: 350px;
+  margin-bottom: 50px;
+}
+
+button {
+  float: left;
+  margin: 5px;
+  margin-right: 20px;
+  margin-bottom: 0;
+  align-items: flex-start;
+  text-align: center;
+  cursor: default;
+  background-color: buttonface;
+  box-sizing: border-box;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  -webkit-writing-mode: horizontal-tb;
+  color: #333;
+  background-image: -webkit-linear-gradient(#f0f0f0, #f0f0f0 38%, #e0e0e0);
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  font: inherit;
+  outline: none;
+  text-shadow: 0 1px 0 rgb(240, 240, 240);
+  font-size: 14px;
+  padding: 3px 7px;
+}
+
+button:disabled {
+  color: #999;
+}
+
+#message {
+  padding: none;
+  margin: none;
+  margin-top: 10px;
+  display: none;
+  float: left;
+}
+
+table {
+  border: none;
+}
+
+td { padding: 0 5px; }
+
+td input { margin: 0; }
+
+#offsets {
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+
+#x-offset, #y-offset, #font-size, #max-width, #delay-time {
+  width: 30px;
+  text-align: right;
+}
+
+#x-offset, #y-offset {
+  margin: 2px;
+}
+
+#copy-btn { float: none; }
