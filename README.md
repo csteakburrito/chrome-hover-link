@@ -16,7 +16,6 @@ Hover Link is a Google Chrome extension for when hovering over any link or short
 - Turn Off and On Webpage Preview for Short URL links
 - Turn Off and On Short URL Destination links
 - Turn Off and On Normal URL Destination links
-- Show Program Icon in Address Bar (This will remove the Program shortcut to the options from the top URL bar, but you should also be able to access the same options screen from the Extensions page)
 - “Allow In Incognito” Only show this on the Extensions page
 
 | Chrome Web Store |
@@ -27,5 +26,3 @@ Hover Link is a Google Chrome extension for when hovering over any link or short
 MIT
 
 The software is provided "AS IS" without any warranty. The author will not be liable for any special, incidental, consequential or indirect damages due to loss of data/corruption or any other repair malfunction.
-
-
