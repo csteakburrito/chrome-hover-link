@@ -1,6 +1,8 @@
 # chrome-hover-link
 Hover Link is a Google Chrome extension for when hovering over any link or short url it will show an image preview of the webpage. Also, displays destination of short urls.
 
+Last Updated: 2014-10-06
+
 ## Features
 - API http://longurl.org/services
 - Webpage Preview for Normal and Short URL Links
